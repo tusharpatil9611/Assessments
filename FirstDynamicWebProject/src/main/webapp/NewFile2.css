@@ -1,0 +1,34 @@
+
+body{  /* Here body is a selector*/
+    background-color: maroon;   /* Declaration Block*/
+    color:green;
+}
+h1{}
+p{}
+#abc{ /* ID selector*/
+    font-size: 5px;
+    font-style: italic;
+    font-family: Arial
+}
+.kbc{  /* class selector*/
+    color: lime;
+    border: 1px;
+    font-family: Times New Roman;
+    text-align: center;
+    text-decoration: blink;
+    text-transform: uppercase;
+    text-shadow: olive;
+    text-overflow: ellipsis;
+
+}
+.listitem{
+    font-size: large;
+    color: orange;
+    list-style: lower-greek;
+    list-style-position: outside;
+    list-style-type: hebrew;
+}
+.anotherlist{
+    background-color: lime;
+    list-style: circle;
+}

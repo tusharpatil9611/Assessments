@@ -1,0 +1,58 @@
+@charset "ISO-8859-1";
+body { /* Here body is a selector*/
+    /*background-color: maroon; */ /* Declaration Block*/
+    color: green;
+    background-image: url("12T9u0f.jpg");
+}
+ 
+h1, p {
+    border-bottom-width: medium;
+    border-bottom-color: purple;
+    margin: 10px; border-top-width : 21px;
+    border-top-style: solid;
+    border-left-width: 35px;
+    border-left-style: solid;
+    border-right-width: 19px;
+    border-right-style: solid;
+    border-bottom-width: 20px;
+    border-bottom-style: solid;
+    padding-left: 20px;
+    padding-top: 21px;
+    padding-right: 33px;
+    padding-bottom: 24px;
+    margin-top: 31px;
+    margin-left: 45px;
+    margin-bottom: 36px;
+    margin-right: 39px;
+    border-top-width: 21px;
+}
+ 
+#abc { /* ID selector*/
+    font-size: 5px;
+    font-style: italic;
+    font-family: Arial
+}
+ 
+.kbc { /* class selector*/
+    color: lime;
+    border: 1px;
+    font-family: Times New Roman;
+    text-align: center;
+    text-decoration: blink;
+    text-transform: uppercase;
+    text-shadow: olive;
+    text-overflow: ellipsis;
+}
+ 
+.listitem {
+    font-size: large;
+    color: orange;
+    list-style: lower-greek;
+    list-style-position: outside;
+    list-style-type: hebrew;
+}
+ 
+.anotherlist {
+    background-color: lime;
+    list-style: circle;
+}

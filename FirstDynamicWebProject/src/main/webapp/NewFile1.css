@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+body{  /* Here body is a selector*/
+    background-color: maroon;   /* Declaration Block*/
+    color:green;
+}
+h1{}
+p{}
+#abc{ /* ID selector*/
+    font-size: 5px;
+    font-style: italic;
+}
+.kbc{  /* class selector*/
+    color: lime;
+    border: 1px;
+}
