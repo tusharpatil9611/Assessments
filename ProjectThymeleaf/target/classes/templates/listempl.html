@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ 
+    
+    <table>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>address</th>
+            <th>email_Id</th>
+        </tr>
+        <tr th:each="employee : ${employees_list}"> <!-- for each loop -->
+            <td th:utext="${employee.id}">id will apear here</td>
+            <td th:utext="${employee.name}">name will apear here</td>
+            <td th:utext="${employee.address}">address will apear here</td>
+            <td th:utext="${employee.email_Id}">email will apear here</td>
+            
+            
+        </tr>
+    </table>
+</body>
+</html>
